@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced CSS - Assignment 1</title>
+    <style>
+         p {
+                font-family: sans-serif;
+            }
+       
+        #red {
+          color: red;
+
+        }
+        #blue{
+            color: blue;
+        }
+       
+        #New::after{
+                content: "NEw";
+                color:yellow;
+            }
+
+        
+        a[title~="Google"] {
+                color: green;
+            }
+        a[title~="Google"] {
+                color: red;}
+        #Italic {
+            font-style: italic;
+        }
+       
+
+    </style>
+</head>
+
+<body>
+    <h1>Main Heading</h1>
+    <p>Paragraph 1</p>
+    <a href="https://www.google.com/" target="Search" title="Google" >Google</a>
+    <a href="https://www.google.com/doodles" target="doodles" title="Google doodlers">Google Doodles</a>
+    <a href="https://www.link-group.eu/" target="_blank" title="Link">Goto Link Group</a>
+    <div id="first-div">
+        <h2>Subheading</h2>
+        <p id="New">Paragraph 2</p>
+        <p id="New">Paragraph 3</p>
+        <div id="second-div">
+            <h3>Sub subheading</h3>
+            <p id="red">Paragraph 4</p 4>
+            <p id="blue">Paragraph 5</p>
+            <p id="red">Paragraph 6</p>
+            <p>Paragraph 7</p>
+            <p>Paragraph 8</p>
+        </div>
+    </div>
+    <p>Paragraph 9</p>
+    <p id="Italic">Paragraph 10</p>
+</body>
+
